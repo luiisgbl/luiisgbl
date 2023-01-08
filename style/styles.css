@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Defino que la paleta de colores que voy a trabajar */
+    --color-blanco: #ffffff;
+    --color-gris: #a6a6a6;
+    --color-azul: #0404e2;
+    --color-negro: #000;
+
+    /* Defino el margen que voy a trabajar */
+    --padding-container: 30px 0;
+}
+
+body{
+    background-color: var(--color-negro);
+}
+
+div{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: var(--color-blanco);
+    font-size: 3rem ;
+    margin-top: 10%;
+    text-align: center;
+}
